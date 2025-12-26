@@ -44,7 +44,7 @@ We take student data privacy very seriously:
 
 | Google Login | Data Structure | Portal Login | 
 | :---: | :---: | :---: |
-| <img src="screenshots/login.jpeg" width="250"> | <img src="screenshots/database.jpeg" width="250"> | <img src="screenshots/portal.jpeg" width="250"> |
+| <img src="screenshots/login.jpeg" width="250"> | <img src="screenshots/database.png" width="250"> | <img src="screenshots/portal.jpeg" width="250"> |
 
 ---
 
