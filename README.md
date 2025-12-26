@@ -38,11 +38,9 @@ We take student data privacy very seriously:
 ---
 ## 📸 Screenshots
 
-*(Add your app screenshots here!)*
-
 | Dashboard | AI Assistant | Security Layer |
 | :---: | :---: | :---: |
-| <img src="screenshots/dashboard.png" width="220"> | <img src="screenshots/ai_chat.png" width="220"> | <img src="screenshots/portal.png" width="220"> |
+| <img src="screenshots/dashboard.jpg" width="220"> | <img src="screenshots/aichatbot.jpg" width="220"> | <img src="screenshots/portal.jpg" width="220"> |
 
 ---
 
