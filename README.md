@@ -40,8 +40,8 @@ We take student data privacy very seriously:
 ## ✨ Key Features
 
 * **🤖 LNM-AI Bot:** A smart assistant to help with academic queries, policies, and mess menus.
-* **📊 One-Tap Dashboard:** View theory and lab attendance at a glance without the portal "chik-chik".
-* **📄 Built-in PDF Viewer:** Access timetables and academic calendars directly within the app.
+* **📊 One-Tap Dashboard:** View attendance at a glance without the portal struggle.
+* **🔐 Secure Encryption:** Uses **AES-256 encryption** to store your portal credentials locally on your device, ensuring your data never leaves your hand in plain text.
 * **⚡ Modern UI:** Smooth animations and a Floating Action Button for quick AI access.
 
 ---
