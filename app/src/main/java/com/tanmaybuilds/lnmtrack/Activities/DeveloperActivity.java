@@ -29,7 +29,7 @@ public class DeveloperActivity extends AppCompatActivity {
         githubIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openUrl("https://github.com/Tanmay_1214");
+                openUrl("https://github.com/Tanmay1214");
             }
         });
 
