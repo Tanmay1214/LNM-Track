@@ -1,14 +1,17 @@
 # 🚀 LNM Track
 
-**LNM Track** is a specialized attendance management and student utility application built specifically for the **LNMIIT Jaipur** community. It eliminates the daily struggle of manual portal logins by providing a seamless, mobile-first experience for academic tracking.
+**LNM Track** is a specialized attendance management and student utility application built specifically for the **LNMIIT Jaipur** community. It combines academic tracking with AI-driven assistance to provide a seamless experience for students.
 
 ---
 
-## 🌟 The Main USP: No More Portal Fatigue
-Checking attendance at LNMIIT shouldn't be a chore.
-- **The Problem:** The official portal requires repeated logins and is not mobile-optimized, forcing students to scroll horizontally and vertically just to check a single percentage.
-- **Our Solution:** Log in once and stay logged in. See your entire attendance dashboard instantly on a clean, mobile-first UI. No more horizontal scrolling or manual logins every time.
+## 🌟 The Problem & Our Solution (Main USP)
 
+The biggest pain point for every LNMIITian is checking attendance on the official portal. 
+- **The Struggle:** You have to log in every single time, navigate through clunky menus, and scroll horizontally/vertically on a non-mobile-friendly site just to see one percentage.
+- **LNM Track Solution:** Our app eliminates this friction. 
+    - **One-Time Login:** Log in once and stay logged in. 
+    - **Direct Dashboard:** No more scrolling! See your attendance for all subjects instantly on a clean, mobile-first dashboard.
+    - **Zero Clutter:** No unnecessary menus—just the data you need, right when you need it.
 ---
 
 ## 🛠️ Tech Stack & Architecture
