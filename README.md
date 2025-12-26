@@ -40,7 +40,7 @@ We take student data privacy very seriously:
 
 | Dashboard | AI Assistant | Security Layer |
 | :---: | :---: | :---: |
-| <img src="screenshots/dashboard.jpg" width="220"> | <img src="screenshots/aichatbot.jpg" width="220"> | <img src="screenshots/portal.jpg" width="220"> |
+| <img src="screenshots/dashboard.jpeg" width="220"> | <img src="screenshots/aichatbot.jpeg" width="220"> | <img src="screenshots/portal.jpeg" width="220"> |
 
 ---
 
