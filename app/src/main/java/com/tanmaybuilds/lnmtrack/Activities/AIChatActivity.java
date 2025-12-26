@@ -1,7 +1,7 @@
 package com.tanmaybuilds.lnmtrack.Activities;
 
 import android.os.Bundle;
-import android.util.Log; // Logging ke liye zaroori import
+import android.util.Log; 
 import android.widget.EditText;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -40,9 +40,9 @@ public class AIChatActivity extends AppCompatActivity {
         setContentView(R.layout.activity_aichat);
         Log.d(TAG, "AIChatActivity Created");
 
-        // 1. Initialize Gemini Model (Note: "gemini-1.5-flash" use karein, 2.5 abhi beta mein ho sakta hai)
+    
         try {
-            GenerativeModel gm = new GenerativeModel("gemini-2.5-flash", "AIzaSyBVa89jRYA43WaCxTcRQOIW1WzVoSWXr5Q");
+            GenerativeModel gm = new GenerativeModel("gemini-2.5-flash", "YOUR_API_KEY");
             model = GenerativeModelFutures.from(gm);
             Log.d(TAG, "Gemini Model Initialized Successfully");
         } catch (Exception e) {
@@ -104,18 +104,17 @@ public class AIChatActivity extends AppCompatActivity {
                 Log.d(TAG, "Gemini Success. Response: " + aiResponse);
 
                 runOnUiThread(() -> {
-                    // Pehle "Typing..." wala index pakdo
+                    
                     int typingIndex = messageList.size() - 1;
 
                     if (typingIndex >= 0 && messageList.get(typingIndex).getMessage().equals("Typing...")) {
-                        // 1. List se remove karo
+                        
                         messageList.remove(typingIndex);
-                        // 2. Adapter ko batao ki item remove hua hai (Crash fix yahan hai!)
+                        
                         chatAdapter.notifyItemRemoved(typingIndex);
                         Log.d(TAG, "Typing indicator removed");
                     }
 
-                    // 3. Ab real response add karo
                     addToChat(aiResponse, ChatMessage.SENT_BY_BOT);
                 });
             }
