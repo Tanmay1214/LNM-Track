@@ -61,6 +61,7 @@ We take student data privacy very seriously:
 
 **Tanmay Shrivastava**
 * **GitHub:** [@Tanmay1214](https://github.com/Tanmay1214)
+* **Linkedin** [@Click here](https://www.linkedin.com/in/tanmay-shrivastava-825a77343/)
 * **College:** The LNM Institute of Information Technology, Jaipur
 * **Roll Number:** 25UEC245
   
