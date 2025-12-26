@@ -38,9 +38,9 @@ We take student data privacy very seriously:
 ---
 ## 📸 Screenshots
 
-| Dashboard | AI Assistant | Security Layer |
-| :---: | :---: | :---: |
-| <img src="screenshots/dashboard.jpeg" width="220"> | <img src="screenshots/aichatbot.jpeg" width="220"> | <img src="screenshots/portal.jpeg" width="220"> |
+| Dashboard | AI Assistant | Portal Login | Google Login | Data Structure
+| :---: | :---: | :---: | :---: | :---: |
+| <img src="screenshots/dashboard.jpeg" width="220"> | <img src="screenshots/aichatbot.jpeg" width="220"> | <img src="screenshots/portal.jpeg" width="220"> | <img src="screenshots/login.jpeg" > | <img src="screenshots/database.jpeg"> |
 
 ---
 
