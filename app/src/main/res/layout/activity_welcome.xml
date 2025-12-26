@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Primary">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/layoutIndicators"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/layoutButtons"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal" />
+
+    <Button
+
+        android:id="@+id/buttonNext"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/btn_rounded"
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_margin="30dp"
+
+        android:text="Next"
+
+        android:textColor="@color/Primary" />
+
+    <LinearLayout
+        android:id="@+id/layoutButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <Button
+            android:id="@+id/btnAutomatic"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/btn_rounded"
+            android:text="Automatic Setup (Recommended)"
+            android:textAllCaps="false"
+            android:textColor="@color/Primary"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:id="@+id/btnManual"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/btn_rounded"
+            android:text="Manual Setup (Under Development)"
+            android:textAllCaps="false"
+            android:enabled="false"
+            android:textColor="@color/Primary"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

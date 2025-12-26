@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1C22"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dp">
+
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/backBtn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_back_btn"
+                    app:tint="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="LNM Track"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnDone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:backgroundTint="#2D323C"
+                android:text="Done"
+                android:textAllCaps="false"
+                app:cornerRadius="8dp" />
+        </RelativeLayout>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/profileImage"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="20dp"
+            android:padding="2dp"
+            android:src="@drawable/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"
+            app:shapeAppearanceOverlay="@style/CircleImage"
+            app:strokeColor="@color/white"
+            app:strokeWidth="2dp" />
+
+        <TextView
+            android:id="@+id/txtEditLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:text="Profile Details"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/profileImage" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/formCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="12dp"
+            app:cardBackgroundColor="#252A34"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintTop_toBottomOf="@id/txtEditLabel"
+            app:strokeWidth="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <LinearLayout style="@style/ProfileInputContainerLocked">
+                    <ImageView style="@style/ProfileInputIcon" android:src="@drawable/ic_user" />
+                    <EditText android:id="@+id/etName" style="@style/ProfileEditTextLocked" android:hint="Name" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/ProfileInputContainerLocked">
+                    <ImageView style="@style/ProfileInputIcon" android:src="@drawable/ic_branch" />
+                    <EditText android:id="@+id/etBranch" style="@style/ProfileEditTextLocked" android:hint="Branch" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/ProfileInputContainerLocked">
+                    <ImageView style="@style/ProfileInputIcon" android:src="@drawable/ic_batch" />
+                    <EditText android:id="@+id/etBatch" style="@style/ProfileEditTextLocked" android:hint="Batch" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/ProfileInputContainerLocked">
+                    <ImageView style="@style/ProfileInputIcon" android:src="@drawable/ic_roll" />
+                    <EditText android:id="@+id/etRoll" style="@style/ProfileEditTextLocked" android:hint="Roll Number" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/ProfileInputContainerLocked">
+                    <ImageView style="@style/ProfileInputIcon" android:src="@drawable/ic_email" />
+                    <EditText android:id="@+id/etEmail" style="@style/ProfileEditTextLocked" android:hint="Email" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/ProfileInputContainerEditable">
+                    <ImageView style="@style/ProfileInputIcon" android:src="@drawable/ic_semester"/>
+                    <AutoCompleteTextView
+                        android:id="@+id/autoCompleteSemester"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:background="@android:color/transparent"
+                        android:hint="Select Semester"
+                        android:textColorHint="@color/black"
+                        android:inputType="none"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:completionThreshold="1"
+                        android:drawableEnd="@drawable/ic_down"
+                        android:drawablePadding="10dp"
+                        android:paddingEnd="15dp"/>
+                </LinearLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnSave"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="#4294F3"
+                    android:text="Update Profile"
+                    app:cornerRadius="12dp" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Made by Tanmay Shrivastava (25UEC245)"
+            android:textColor="#B0B0B0"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="16dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

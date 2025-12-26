@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cnb="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/attendance"
+        android:icon="@drawable/bottom_btn1"
+        android:title="Attendance"
+        cnb:background="@color/Secondary"
+        android:iconTint="#fff"/>
+
+
+    <item android:id="@+id/routine"
+        android:icon="@drawable/ic_calendar"
+        android:title="Calendar"
+        cnb:background="@color/Secondary"
+        android:iconTint="#fff"/>
+
+    <item android:id="@+id/tasks"
+        android:icon="@drawable/task"
+        android:title="Tasks"
+        cnb:background="@color/Secondary"
+        android:iconTint="#fff"/>
+
+    <item android:id="@+id/projects"
+        android:icon="@drawable/project"
+        android:title="Projects"
+        cnb:background="@color/Secondary"
+        android:iconTint="#fff"/>
+
+
+</menu>
