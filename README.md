@@ -46,7 +46,9 @@ The biggest pain point for every LNMIITian is checking attendance on the officia
 
 ## 🔒 Security & Privacy
 
-Security Architecture: We use a In-Memory Encryption/Decryption model. When you enter your password, it is immediately converted into an encrypted hash using AES-256 and only the encrypted version is stored in the database. During authentication, the password is decrypted strictly within the device's volatile memory (RAM) and is never sent to any external server in plain text. This ensures that even if the database is accessed, your actual password remains unreadable.
+**Security Architecture:** We use a In-Memory Encryption/Decryption model.
+When you enter your password, it is immediately converted into an encrypted hash using AES-256 and only the encrypted version is stored in the database.
+During authentication, the password is decrypted strictly within the device's volatile memory (RAM) and is never sent to any external server in plain text.This ensures that even if the database is accessed, your actual password remains unreadable.
 
 ---
 
