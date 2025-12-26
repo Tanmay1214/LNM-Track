@@ -24,7 +24,7 @@ The biggest pain point for every LNMIITian is checking attendance on the officia
 ### **Database & Security**
 * **Database:** Firebase Realtime Database.
 * **Security:** **AES-256 Bit Encryption** for portal credentials.
-* **Auth:** Secure onboarding via **Firebase Phone OTP** and **Google Sign-In**.
+* **Auth:** Secure onboarding via **Firebase Google Sign-In**.
 
 ---
 
@@ -34,6 +34,15 @@ We take student data privacy very seriously:
 - **In-Memory Encryption:** Your portal password is never stored in plain text. It is encrypted using **AES-256** before being saved.
 - **Safe Decryption:** Decryption only happens in the device's volatile memory (RAM) during active sessions to fetch data, ensuring your actual password is never exposed.
 - **Local Control:** All sensitive processing stays on your device; we do not share credentials with any third-party servers.
+
+---
+## 📸 Screenshots
+
+*(Add your app screenshots here!)*
+
+| Dashboard | AI Assistant | Security Layer |
+| :---: | :---: | :---: |
+| <img src="screenshots/dashboard.png" width="220"> | <img src="screenshots/ai_chat.png" width="220"> | <img src="screenshots/portal.png" width="220"> |
 
 ---
 
@@ -51,6 +60,7 @@ We take student data privacy very seriously:
 **Tanmay Shrivastava**
 * **GitHub:** [@Tanmay1214](https://github.com/Tanmay1214)
 * **College:** The LNM Institute of Information Technology, Jaipur
-
+* **Roll Number:** 25UEC245
+  
 ---
 > **Built by a student, for the students. 🎓**
