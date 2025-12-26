@@ -4,43 +4,50 @@
 
 ---
 
+## 🌟 The Problem & Our Solution (Main USP)
+
+The biggest pain point for every LNMIITian is checking attendance on the official portal. 
+- **The Struggle:** You have to log in every single time, navigate through clunky menus, and scroll horizontally/vertically on a non-mobile-friendly site just to see one percentage.
+- **LNM Track Solution:** Our app eliminates this friction. 
+    - **One-Time Login:** Log in once and stay logged in. 
+    - **Direct Dashboard:** No more scrolling! See your attendance for all subjects instantly on a clean, mobile-first dashboard.
+    - **Zero Clutter:** No unnecessary menus—just the data you need, right when you need it.
+
+---
+
 ## ✨ Key Features
 
-* **🤖 LNM-AI Bot:** Integrated with **Google Gemini 1.5 Flash**, this smart assistant helps students with college policies, mess timings, academic doubts, and more.
-* **📊 Smart Attendance Dashboard:** A visual representation of attendance data, helping students stay on track with their academic requirements.
-* **🔐 Secure Portal Sync:** Student credentials are encrypted using **AES-256** before being synced with the LNMIIT attendance portal for maximum security.
-* **📄 Integrated PDF Viewer:** View academic calendars, course structures, and timetables directly within the app without needing external apps.
-* **🌙 Premium UI/UX:** A modern dark-themed interface featuring smooth transitions, custom chat bubbles, and a floating AI action button.
+* **🤖 LNM-AI Bot:** Powered by **Google Gemini 1.5 Flash**, providing an intelligent assistant to answer queries about mess menus, academic policies, and campus life.
+* **📊 One-Tap Attendance:** Instant visibility of your theory and lab attendance without the hassle of portal navigation.
+* **🔐 Secure Encryption:** Uses **AES-256 encryption** to store your portal credentials locally on your device, ensuring your data never leaves your hand in plain text.
+* **📄 Integrated PDF Viewer:** Access your course time-tables and academic calendars without leaving the app.
+* **⚡ Modern UI/UX:** Built with Material Design 3, featuring smooth transitions and an intuitive interface.
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Core:** Java (Android SDK)
-* **AI Engine:** Google Generative AI (Gemini API)
+* **Core Language:** Java (Android SDK)
+* **AI Integration:** Google Generative AI (Gemini API)
+* **Encryption:** AES-256 (Advanced Encryption Standard)
 * **Navigation:** ChipNavigationBar
-* **Concurrency:** Google Guava (ListenableFuture)
-* **UI Components:** Material Design 3, RecyclerView with Custom Adapters
-* **Data Handling:** AES-256 Encryption for sensitive student data
+* **UI Components:** RecyclerView, NestedScrollView, Extended FAB
 
 ---
 
 ## 📸 Screenshots
 
-*(Add your screenshots here to make it look even better!)*
+*(Add your screenshots here!)*
 
-| Dashboard | LNM-AI Chat | Attendance Portal |
+| Dashboard | AI Assistant | Portal Sync |
 | :---: | :---: | :---: |
-| <img src="screenshots/dashboard.png" width="200"> | <img src="screenshots/ai_chat.png" width="200"> | <img src="screenshots/portal.png" width="200"> |
+| <img src="screenshots/dashboard.png" width="220"> | <img src="screenshots/ai_chat.png" width="220"> | <img src="screenshots/portal.png" width="220"> |
 
 ---
 
 ## 🔒 Security & Privacy
 
-We take student data very seriously. **LNM Track** ensures that:
-* Portal passwords are never stored in plain text.
-* All AI interactions are processed through secure API channels.
-* The app follows professional Android security guidelines for local storage.
+We value your privacy. Your portal password is encrypted using professional-grade AES-256 before being stored. The app only fetches data to display it more efficiently and does not share your credentials with any third-party servers.
 
 ---
 
@@ -52,4 +59,4 @@ We take student data very seriously. **LNM Track** ensures that:
 
 ---
 
-> This project is a student-led initiative to improve digital accessibility for the LNMIIT campus.
+> Built by a student, for the students. 🎓
