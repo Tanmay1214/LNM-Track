@@ -17,10 +17,10 @@ The biggest pain point for every LNMIITian is checking attendance on the officia
 
 ## ✨ Key Features
 
-* **🤖 LNM-AI Bot:** Powered by **Google Gemini 1.5 Flash**, providing an intelligent assistant to answer queries about mess menus, academic policies, and campus life.
+* **🤖 LNM-AI Bot:** Powered by **Google Gemini 2.5 Flash**, providing an intelligent assistant to answer queries about mess menus, academic policies, and campus life.
 * **📊 One-Tap Attendance:** Instant visibility of your theory and lab attendance without the hassle of portal navigation.
 * **🔐 Secure Encryption:** Uses **AES-256 encryption** to store your portal credentials locally on your device, ensuring your data never leaves your hand in plain text.
-* **📄 Integrated PDF Viewer:** Access your course time-tables and academic calendars without leaving the app.
+* **🤖 LNM-AI Bot:** Powered by **Google Gemini 2.5 Flash**, providing an intelligent assistant to answer queries about mess menus, academic policies, and campus life.
 * **⚡ Modern UI/UX:** Built with Material Design 3, featuring smooth transitions and an intuitive interface.
 
 ---
