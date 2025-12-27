@@ -1,6 +1,6 @@
 # 🚀 LNM Track
 
-**LNM Track** is a specialized attendance management and student utility application built specifically for the **LNMIIT Jaipur** community. It combines academic tracking with AI-driven assistance to provide a seamless experience for students.
+**LNM Track** is a specialized attendance management and student utility application built specifically for the **LNMIIT Jaipur** community. It combines academic tracking to provide a seamless experience for students.
 
 ---
 
