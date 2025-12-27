@@ -28,7 +28,7 @@ The biggest pain point for every LNMIITian is checking attendance on the officia
 
 ---
 
-## 🔐 Security & Privacy (The "Digital Safe" Model)
+## 🔐 Security & Privacy
 
 We take student data privacy very seriously:
 - **In-Memory Encryption:** Your portal password is never stored in plain text. It is encrypted using **AES-256** before being saved.
